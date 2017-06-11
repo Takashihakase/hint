@@ -1,0 +1,27 @@
+{
+    "name": "person",
+    "plural": "people",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "text": {
+            "type": "string"
+        },
+        "subject": {
+            "type": "string"
+        },
+        "rank": {
+            "type": "number"
+        },
+        "timestamp": {
+            "type": "string"
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}
